@@ -1,0 +1,3 @@
+[submodule "src/app/modules/firebase-cms"]
+	path = src/app/modules/firebase-cms
+	url = https://github.com/thruthesky/firebase-cms
