@@ -5,12 +5,12 @@
   "rules": {
     "arrow-return-shorthand": true,
     "callable-types": true,
-    "class-name": true,
+    "class-name": false,
     "comment-format": [
       true,
       "check-space"
     ],
-    "curly": true,
+    "curly": false,
     "deprecation": {
       "severity": "warn"
     },
@@ -29,7 +29,7 @@
     "interface-over-type-literal": true,
     "label-position": true,
     "max-line-length": [
-      true,
+      false,
       140
     ],
     "member-access": false,
