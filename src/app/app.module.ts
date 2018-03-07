@@ -22,7 +22,9 @@ import { AppComponent } from './app.component';
     BrowserModule
     , FirebaseCmsModule.forRoot({
       firebase: environment.firebase,
-      api: 'https://us-central1-thruthesky-firebase-backend.cloudfunctions.net/api'
+      apiUrl: 'https://us-central1-thruthesky-firebase-backend.cloudfunctions.net/api',
+      disableAlertOnNotInstall: true,
+      logRequestUrl: true
     })
     , UnitTestsModule
     , FirebaseCmsComponentModule
