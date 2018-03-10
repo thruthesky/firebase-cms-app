@@ -1,6 +1,6 @@
 {
   "name": "firebase-cms",
-  "version": "0.2.12",
+  "version": "0.2.24",
   "license": "MIT",
   "scripts": {
     "ng": "ng",

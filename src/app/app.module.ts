@@ -23,8 +23,9 @@ import { AppComponent } from './app.component';
     , FirebaseCmsModule.forRoot({
       firebase: environment.firebase,
       apiUrl: 'https://us-central1-thruthesky-firebase-backend.cloudfunctions.net/api',
+      // apiUrl: 'http://localhost:8010/thruthesky-firebase-backend/us-central1/api ',
       disableAlertOnNotInstall: true,
-      logRequestUrl: true
+      debug: true
     })
     , UnitTestsModule
     , FirebaseCmsComponentModule
@@ -36,6 +37,6 @@ export class AppModule {
   constructor(
     t: UnitTestService
   ) {
-    t.runTests();
+    // t.runTests();
   }
 }

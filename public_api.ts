@@ -1,1 +1,4 @@
-export * from './src/app/modules/firebase-cms/firebase-cms.module';
+export * from './src/app/modules/firebase-cms/sdk';
+export * from './src/app/modules/firebase-cms/components';
+export * from './src/app/modules/firebase-cms/unit-tests';
+
